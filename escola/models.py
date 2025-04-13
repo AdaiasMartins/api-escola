@@ -10,7 +10,7 @@ class Estudante(models.Model):
     def __str__(self):
         return self.nome
 
-class Curso(models.model):
+class Curso(models.Model):
     NIVEL = (
         ('B', 'Básico'),
         ('I', 'Intermediário'),
